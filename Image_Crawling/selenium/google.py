@@ -20,7 +20,7 @@ elem = driver.find_element(By.NAME, "q")
 elem.send_keys("Pokemon") # Pokemon을 검색창에 입력함
 elem.send_keys(Keys.RETURN)
 
-SCROLL_PAUSE_TIME = 1.3 # 1.5초 마다 스크롤
+SCROLL_PAUSE_TIME = 1.3 # 1.3초 마다 스크롤
 
 # 스크롤 높이를 last_height 변수에 저장합니다.
 last_height = driver.execute_script("return document.body.scrollHeight")
